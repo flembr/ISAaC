@@ -1,27 +1,36 @@
-# ISAaC
+# About
+**ISAaC** is the **I**nteractive **S**tudy **A**ssistant **a**nd **C**ompanion created *for and by* students from the . **ISAaC** is intended to extend existing platforms such as moodle or lsf to a cognitive companion, eventually accompanying all students throughout their studies. As a partner and guide **ISAaC** is relying on an interactive and conversational process between him/her and the student. The **I** therefore not only entails *interactive* but also *intelligent*.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+To efficiently help us students with our studies in as many aspects as possible, **ISAaC** will need to comprise a wide range of functions:
+* keeping track of one's study progress (subjects, grades and credits), what requirements have not yet been met and evaluating your overall performance (e.g. estimating your final grade)
+* handling course material, both official (lecture slides, exercises etc.) and unofficial (exam-protocols, lecture-notes, exercise solutions)
+* introducing new students to relevant online applications such as the kiz, lsf and moodle.
+* providing answers to questions regarding exam regulations
 
-## Development server
+# Contributing
+This repository serves as the basis for a collaborative work between students and is thereby in part also a playground for implementing new ideas regarding human computer interaction, cognitive companions and cognitive systems in general. All students enrolled in the above-mentioned programme are encouraged to contribute to the best of their abilities. **ISAaC** can be extended to implement whatever functionality you like. *So get in there and request that pull!* In general you'll have to at least have some knowledge about the following things:
+* [Angular](https://angular.io)
+* [Git](https://guides.github.com/activities/hello-world/)
+* ...
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+If you are not familiar with web development or programming in general, don't worry. We are always looking for ideas for novel features or improvements for existing ones. This of course includes design and interaction where you might have suggestions or novel approaches that you'd like to see and experience in **ISAaC** without having an understanding of how it would be achieved. Have a look down below for a list of currently implemented features and already proposed ideas.
 
-## Code scaffolding
+*Remark: To keep track of features and how they are implemented (without having to read through a lot of code), a documentation might come in handy.*
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# A running list of features
 
-## Build
+## Implemented
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## In development
+Some key components will have to be implemented in order to achieve **ISAaC**'s functionality:
+* user login via kiz-account
+* model of study progress (basically a model of the study regulations that can be adjusted by each student)
+* data handling (sql? nosql?) for user data and user-curated materials
+* a conversational interface with ISAaC as a "chatbot"
 
-## Running unit tests
+and eventually, maybe:
+* direct embedding of lsf,moodle etc.
+* login for lecturers to provide course material, messaging between users and a general forum - die moodle, die!!!1!!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Ideas
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
