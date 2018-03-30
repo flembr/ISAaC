@@ -1,0 +1,14 @@
+#footer {
+  display: block;
+  bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+  position: relative;
+  float: bottom;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
+.footer-block {
+  margin: 0 0 0 0;
+}
