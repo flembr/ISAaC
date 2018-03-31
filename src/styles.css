@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  font-family: "Lucida Grande", Monaco, monospace;
+  font-family: Abel, Monaco, monospace;
   margin-top: 60px;
+}
+a {
+  color: #889FAD;
+}
+a:hover, a:focus, a:active {
+  color: #556C7A;
 }

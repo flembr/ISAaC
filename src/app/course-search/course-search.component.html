@@ -1,0 +1,112 @@
+<h1>Search courses</h1>
+<br>
+<form class="form-inline">
+  
+  <div class="row row-search row-eq-height">
+    <div class="col-sm-8 text-container">
+      <input type="text" class="form-control" id="name-input" placeholder="Enter course name">
+    </div>
+    <div class="col-md-2 text-container"> 
+      <select class="form-control col-input" id="semester-input" placeholder="Subject">
+        <option>All semesters</option>
+        <option>SS 18</option>
+        <option>WS 17/18</option>
+        <option>SS 17</option>
+        <option>WS 16/17</option>
+        <option>SS 16</option>
+        <option>WS 15/16</option>
+        <option>SS 15</option>
+        <option>WS 14/15</option>
+      </select>
+    </div>
+    <div class="col-sm-2 text-container">
+      <a id="advanced-toggle" data-toggle="collapse" href="#advanced-search">Advanced filters...</a>
+    </div>
+  </div>
+  
+  <div id="advanced-search" class="collapse">
+    <br>
+    <div class="row row-search row-eq-height">
+      <div class="col-md-2 text-container">  
+        <input type="text" class="form-control col-input" id="code-input" placeholder="Code">
+      </div>
+      <div class="col-md-3 text-container"> 
+        <input type="text" class="form-control col-input" id="lecturer-input" placeholder="Lecturer">
+      </div>
+      <div class="col-md-2 text-container"> 
+        <select class="form-control col-input" id="type-input" placeholder="Type">
+          <option>All types</option>
+          <option>Lecture</option>
+          <option>Exercise</option>
+          <option>Seminar</option>
+          <option>Project</option>
+          <option>Colloquium</option>
+        </select>
+      </div>
+      <div class="col-md-2 text-container"> 
+        <select class="form-control col-input" id="subject-input" placeholder="Subject">
+          <option>All subjects</option>
+          <option>Basic</option>
+          <option>Interdisciplinary</option>
+          <option>Special</option>
+          <option>Applied</option>
+        </select>
+      </div>
+      <div class="col-md-3 text-container"> 
+        <select class="form-control col-input" id="topic-input" placeholder="Topic">
+          <option>All topics</option>
+          <option>Planning & Reasoning</option>
+          <option>Learning</option>
+          <option>Interaction</option>
+          <option>Perception</option>
+          <option>Methods & Concepts </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- This table is currently filled with placeholder data -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Semester</th>
+        <th>Name</th>
+        <th>Lecturer</th>
+        <th>Subject</th>
+        <th>ECTS</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CS8901.002</td>
+        <td>SS 18</td>
+        <td>Cognitive Systems II</td>
+        <td>lecturer collective</td>
+        <td>Interdisciplinary</td>
+        <td>6</td>
+        <td>
+          <button type="button" class="btn btn-block">
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>CS8752.000</td>
+        <td>SS 18</td>
+        <td>Fundamental Approaches to Cognitive Science</td>
+        <td>Prof. Dr. Ernst</td>
+        <td>Basic</td>
+        <td>6</td>
+        <td>
+          <button type="button" class="btn btn-block">
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+</form>
