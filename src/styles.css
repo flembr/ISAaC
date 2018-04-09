@@ -5,6 +5,7 @@ body {
 }
 a {
   color: #889FAD;
+  outline: 0;
 }
 a:hover, a:focus, a:active {
   color: #556C7A;
