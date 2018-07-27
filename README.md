@@ -22,6 +22,8 @@ If you are not familiar with web development or programming in general, don't wo
 ## Implemented
 
 ## In development
+
+## Ideas
 Some key components will have to be implemented in order to achieve **ISAaC**'s functionality:
 * user login via kiz-account
 * model of study progress (basically a model of the study regulations that can be adjusted by each student)
@@ -29,8 +31,5 @@ Some key components will have to be implemented in order to achieve **ISAaC**'s 
 * a conversational interface with ISAaC as a "chatbot"
 
 and eventually, maybe:
-* direct embedding of lsf,moodle etc.
-* login for lecturers to provide course material, messaging between users and a general forum - die moodle, die!!!1!!
-
-## Ideas
-
+* direct embedding of lsf, moodle etc.
+* wiki/forum for Fachschaft- and SK-related issues and announcements
